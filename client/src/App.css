@@ -1,0 +1,201 @@
+ /* signup css start  */
+ .signup {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 500px;
+    width: 700px;
+    margin-left: 300px;
+}
+
+.signup-content {
+    width: 900px;
+    height: 400px;
+    margin-top: 5%;
+}
+
+.signup-text {
+    height: 100px;
+    width: 300px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.input-demo {
+    outline: 0 !important;
+    border: none;
+    width: 90%;
+    
+    margin-left: 20px;
+}
+
+.input-demo::placeholder {
+    padding: 5px;
+}
+
+.sign-img{
+    margin-left: 400px;
+    margin-top: -350px;
+    /* border: 2px solid; */
+}
+
+.already{
+    margin-left: -50px;
+}
+
+.data {
+    position: relative;
+    border-bottom: 2px solid slategray !important;
+}
+
+.icon {
+   
+    position: absolute;
+    top: 5px;
+    pointer-events: none;
+    transition: opacity 0.3s;
+}
+
+.input:focus+.icon {
+    opacity: 0;
+}
+
+.btn {
+    margin-right: 20px !important;
+}
+
+.sign-img {
+    width: 400px;
+    height: 400px;
+}
+
+.alredy {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* signup css end */
+
+.navbar{
+    border: 2px solid;
+    /* background-color: #abb8c3; */
+    width: 100%;
+}
+
+/* login css start */
+@media only screen and (min-width:1200px) {
+    .login {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .login-content {
+        width: 57%;
+        height: auto;
+        margin-top: 5%;
+    }
+
+    .login-text {
+        padding: 50px;
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .data-2 {
+        border-bottom: 2px solid slategray;
+        width: 70%;
+        margin-left: 10%;
+        position: relative;
+    }
+
+    .input-demo {
+        width: 90%;
+        border: none;
+        outline: 0;
+
+    }
+
+    .input-demo::placeholder {
+        padding: 5px;
+    }
+
+    .icon {
+        position: absolute;
+
+        pointer-events: none;
+        transition: opacity 0.3s;
+    }
+
+    .btn {
+        margin-left: 10%;
+    }
+
+    .signin-img {
+        width: 300px;
+        padding: 10px;
+        margin-left: 13%;
+        height: 400px;
+    }
+
+}
+/* login css end */
+
+/* Home css part start */
+.home-main{
+    height: 500px;
+    /* width: 1000p; */
+    background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+      background-repeat: repeat-y;
+      position: relative;
+}
+.welcome-home{
+    padding-top: 17%;
+    text-align: center;
+}
+.wel-dev{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(9, 9, 9);
+    text-transform: capitalize;
+}
+.weare{
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: bold;
+    text-decoration: none;
+    color: red;
+}
+
+
+/* Home css part end */
+
+
+/* header css start */
+.navbar-brand{
+    font-family: yes;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: tomato!important;
+    font-size: 35px!important;
+}
+@font-face {
+    font-family: yes;
+    src: url("../src/component/layout/cakecafe/More\ Info.txt");
+}
+.nav-link{
+        color: black!important;
+        font-size: 18px;
+        font-weight: 500;
+}
+
+.nav-item{
+    margin-right: 270px;
+}
+.nav-link:hover{
+    background-color: red;
+    color: white;
+    transition: 2s all linear;
+    border-radius: 10px;
+}
